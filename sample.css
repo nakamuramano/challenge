@@ -86,6 +86,7 @@ a{
 .content{
   margin: 30px 0;
   text-align: center;
+  color: #000;
 }
 
 .portfolio-text{
@@ -134,3 +135,37 @@ a{
 .img:nth-child(6){
   background-image: url(img/webcamp-mother.png);
 }
+
+.feature-box{
+  width: 980px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.feature-visual{
+  width: 320px;
+  margin: 0 auto;
+}
+
+.icon{
+  font-size: 60px;
+  text-align: center;
+}
+
+.text-name{
+  padding: 10px 0;
+  font-size: 20px;
+  color: #000;
+  text-align: center;
+}
+
+.feature-content{
+  font-size: 16px;
+}
+
+.feature-content:nth-child(n+2){
+  margin-right: 10px;
+}
+
+
+
