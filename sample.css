@@ -139,13 +139,21 @@ a{
 .feature-box{
   width: 980px;
   margin: 0 auto;
+  margin-bottom: 90px;
   display: flex;
 }
 
 .feature-visual{
   width: 320px;
   margin: 0 auto;
+  margin-right: 10px;
 }
+
+.feature-visual:nth-child(3){
+  margin-right: 0;
+}
+
+
 
 .icon{
   font-size: 60px;
@@ -163,9 +171,6 @@ a{
   font-size: 16px;
 }
 
-.feature-content:nth-child(n+2){
-  margin-right: 10px;
-}
 
 
 
