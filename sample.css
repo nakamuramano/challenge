@@ -170,6 +170,11 @@ a{
   font-size: 16px;
 }
 
+.profile{
+ padding-bottom: 90px;
+ background-color: #ECEFF1;
+}
+
 
 .profile-text{
   width: 1024px;
@@ -178,16 +183,32 @@ a{
 }
 
 .profile-box{
-  /*width:512px;*/
+  width:512px;
+}
+
+.profile-box:nth-child(1){
+  text-align: center;
 }
 
 .profile-image{
   height: 250px;
   width: 250px;
-  margin: 0 auto;
   border-radius: 50%;
 }
 
+.profile-myname, .profile-myskill{
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+
+.profile-myskill{
+  padding-top: 20px;
+}
+
+.profile-myname-text, .profile-myskill-text{
+  font-size: 16px;
+  color: #000;
+}
 
 
 
