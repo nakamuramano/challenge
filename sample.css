@@ -255,7 +255,41 @@ footer{
 
 
 @media screen and (max-width:767px){
-  social{
-    width: 100%;
+  header{
+    height: 50px;
   }
+
+  img{
+    height: 50px;
+  }
+
+
+  #main-visual{
+  background-image: url(img/code.png);
+  background-size: cover;
+  background-position: center;
+  }
+
+.main-visual-content{
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 200px;
+
+}
+
+#main-visual-content-top{
+  font-size: 40px;
+  color: #FAFAFA;
+}
+
+#main-visual-content-sub{
+  margin-top: 10px;
+  font-size: 18px;
+  color: #FAFAFA;
+}
+
+
+
+
+
 }
