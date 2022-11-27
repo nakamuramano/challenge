@@ -275,21 +275,46 @@ footer{
   margin: 0 auto;
   padding-top: 200px;
 
-}
+  }
 
 #main-visual-content-top{
   font-size: 40px;
   color: #FAFAFA;
-}
+  }
 
 #main-visual-content-sub{
   margin-top: 10px;
   font-size: 18px;
   color: #FAFAFA;
+  }
+
+
+.content{
+  width: 90%;
+  margin: 30px auto;
+  color: #000;
+  }
+
+.portfolio-text{
+  width: 90%;
+  margin: 0 auto;
+  }
+
+.img{
+  height: 250px;
+  width: 300px;
+  margin-bottom: 10px;
+  background-size: cover;
+  background-position: center;
 }
 
+.img:nth-child(3n){
+  margin-bottom: 0;
+}
 
-
+.img:nth-child(n+4){
+  margin-bottom: 90px;
+}
 
 
 }
