@@ -303,17 +303,63 @@ footer{
 .img{
   height: 250px;
   width: 300px;
+  margin: 0 auto;
   margin-bottom: 10px;
   background-size: cover;
   background-position: center;
-}
+  }
 
 .img:nth-child(3n){
-  margin-bottom: 0;
-}
+  margin: 10px auto;
+  }
 
 .img:nth-child(n+4){
+  margin-bottom: 10px;
+  }
+
+.feature-box{
+  width: 90%;
+  margin: 0 auto;
   margin-bottom: 90px;
+  display: block;
+}
+
+.feature-visual{
+  margin: 0 auto;
+  margin-right: 0px;
+}
+
+.profile{
+ padding-bottom: 90px;
+ background-color: #ECEFF1;
+}
+
+
+.profile-text{
+  width: 90%;
+  margin: 0 auto;
+  display: block;
+}
+
+.profile-box{
+  width:100%;
+}
+
+.contact{
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 70px;
+}
+
+.contact-content{
+  width: 100%;
+  display: block;
+}
+
+
+.contact-box{
+  width: 100%;
+  text-align: center;
 }
 
 
