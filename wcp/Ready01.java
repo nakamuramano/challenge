@@ -99,3 +99,111 @@ public static void main (String [] atgs) {
 	System.out.println(bool);
 }
 }
+
+
+public class Ready01 {
+	public static void main (String [] args){
+		int number = 7;
+		if (number < 5) {
+			System.out.println(number + "は５未満です");
+		} else if (number < 10) {
+			System.out.println(number + "は5以上、10未満です");
+		} else if (number < 15) {
+			System.out.println(number + "は10以上、15未満です");
+		} else {
+			System.out.println (number + "は１５未満出ないです");
+		}
+	}
+}
+
+
+public class Ready01 {
+	public static void main(String[] args) {
+		int val = 2;
+		switch (val) {
+		case 3:
+			System.out.println("よくできました！");
+			break;
+		case 2:
+			System.out.println("普通でした！");
+			break;
+		default:
+			System.out.println("頑張ろう！");
+		}
+	}
+}
+
+
+public class Ready01 {
+public static void main (String [] args) {
+	int distance = 8;
+	if (distance < 5) {
+		System.out.println("とても近いです");
+	} else if (distance <= 10) {
+		System.out.println("近いです");
+	} else if (distance <= 15) {
+		System.out.println("遠いです");
+	} else {
+		System.out.println("とても遠いです");
+	}
+}
+}
+
+
+public class Ready01 {
+public static void main (String [] args) {
+	String color = "yellow";
+	switch (color) {
+	case "red":
+		System.out.println("赤信号です");
+		break;
+	case "yellow":
+		System.out.println("黄色信号です");
+		break;
+	case "blue":
+		System.out.println("青信号です");
+	    break;
+	default:
+		System.out.println("信号の色ではありません");
+		break;
+	}
+}
+}
+
+
+public class Ready01 {
+	public static void main(String[] args) {
+		int number = 1;
+		while (number < 50) {
+			number *= 2;
+			System.out.println("While01 = " + number);
+		}
+	}
+}
+
+
+public class Ready01 {
+	public static void main(String[] args) {
+		for (int number = 1; number <= 5; number++) {
+			System.out.println("For01 = " + number);
+		}
+	}
+}
+
+
+public class Ready01 {
+	  public static void main(String[] args) {
+		    int number = 1;
+		    printNum(number);
+		  }
+
+		  public static int printNum(int number) {
+		    if (number < 50) {
+		      number *= 2;
+		      System.out.println("While01 = " + number);
+		      // 条件にマッチしたら自分自身を再度呼び出す
+		      printNum(number);
+		    }
+		    return number;
+		  }
+}
